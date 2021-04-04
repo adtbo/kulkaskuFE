@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import OrderForm from './orderForm/orderForm'
 import App from './App';
+import MainForm from './Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <OrderForm />
   </React.StrictMode>,
   document.getElementById('root')
 );

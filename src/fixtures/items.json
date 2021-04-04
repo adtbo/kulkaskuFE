@@ -1,0 +1,856 @@
+[
+  {
+    "ID": "001",
+    "NAME": "BUNCIS",
+    "PRICE": "20800",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "002",
+    "NAME": "BABY BUNCIS",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "003",
+    "NAME": "BROKOLI",
+    "PRICE": "52000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "004",
+    "NAME": "BAYAM POTONG",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "005",
+    "NAME": "BAYAM AKAR",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "006",
+    "NAME": "BONGKOT",
+    "PRICE": "19500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "007",
+    "NAME": "BABY CORN",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "008",
+    "NAME": "BUTTERNUT PUMKIN",
+    "PRICE": "27300",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "009",
+    "NAME": "EDAMAME",
+    "PRICE": "28600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "010",
+    "NAME": "ERCIS",
+    "PRICE": "58500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "011",
+    "NAME": "SAYUR HIJAU",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "012",
+    "NAME": "SAWI PUTIH",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "013",
+    "NAME": "SINGKONG KUPAS",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "014",
+    "NAME": "SEREH",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "015",
+    "NAME": "SELADA AIR",
+    "PRICE": "23400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "016",
+    "NAME": "SELEDRI",
+    "PRICE": "19500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "017",
+    "NAME": "SAYUR NANGKA",
+    "PRICE": "26000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "018",
+    "NAME": "KOL",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "019",
+    "NAME": "KANGKUNG AKAR",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "020",
+    "NAME": "KANGKUNG LOMBOK",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "021",
+    "NAME": "KEMBANG KOL",
+    "PRICE": "49400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "022",
+    "NAME": "KAILAN",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "023",
+    "NAME": "KENTANG MEDIUM",
+    "PRICE": "20800",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "024",
+    "NAME": "KENTANG BABY",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "025",
+    "NAME": "KACANG PANJANG",
+    "PRICE": "19500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "026",
+    "NAME": "KEMANGI",
+    "PRICE": "5200",
+    "UNIT": "PER IKAT",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "027",
+    "NAME": "KECOMBRANG",
+    "PRICE": "23400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "028",
+    "NAME": "KUCAI",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "029",
+    "NAME": "POKCOY",
+    "PRICE": "19500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "030",
+    "NAME": "PARE",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "031",
+    "NAME": "PEPAYA SAYUR",
+    "PRICE": "15600",
+    "UNIT": "BJ",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "032",
+    "NAME": "PAKIS",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "033",
+    "NAME": "WORTEL",
+    "PRICE": "24700",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "034",
+    "NAME": "LABU SIAM",
+    "PRICE": "9100",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "035",
+    "NAME": "LOBAK",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "036",
+    "NAME": "LABU KUNING",
+    "PRICE": "9100",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "037",
+    "NAME": "DAUN SINGKONG",
+    "PRICE": "14300",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "038",
+    "NAME": "DAUN PISANG",
+    "PRICE": "5850",
+    "UNIT": "LEPIT",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "039",
+    "NAME": "DAUN SALAM",
+    "PRICE": "4550",
+    "UNIT": "IKAT",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "040",
+    "NAME": "DAUN PANDAN",
+    "PRICE": "4550",
+    "UNIT": "IKAT",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "041",
+    "NAME": "DAUN BAWANG",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "042",
+    "NAME": "TIMUN JEPANG",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "043",
+    "NAME": "TIMUN LOKAL",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "044",
+    "NAME": "TIMUN ACAR",
+    "PRICE": "6500",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "045",
+    "NAME": "TERONG UNGU",
+    "PRICE": "20800",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "046",
+    "NAME": "TERONG HIJAU",
+    "PRICE": "20800",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "047",
+    "NAME": "TERONG BULAT",
+    "PRICE": "18200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "048",
+    "NAME": "TOMAT HIJAU",
+    "PRICE": "19500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "049",
+    "NAME": "TOMAT",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "050",
+    "NAME": "TOMAT CHERRY MERAH",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "051",
+    "NAME": "TAUGE",
+    "PRICE": "14300",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "052",
+    "NAME": "TAHU",
+    "PRICE": "7800",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "053",
+    "NAME": "TAHU LOMBOK",
+    "PRICE": "1300",
+    "UNIT": "BJ",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "054",
+    "NAME": "TEMPE",
+    "PRICE": "3250",
+    "UNIT": "pcs",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "055",
+    "NAME": "PRE JAWA",
+    "PRICE": "22100",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "056",
+    "NAME": "GONDE",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "057",
+    "NAME": "UBI MANIS",
+    "PRICE": "14300",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "058",
+    "NAME": "UBI UNGU",
+    "PRICE": "14300",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "059",
+    "NAME": "UBI KUNING",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "060",
+    "NAME": "SINGKONG kupas",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "061",
+    "NAME": "JAMUR KANCING",
+    "PRICE": "42900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "062",
+    "NAME": "JAMUR TIRAM",
+    "PRICE": "36400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "063",
+    "NAME": "JAMUR SHIMEJI WHITE",
+    "PRICE": "23400",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "064",
+    "NAME": "JAMUR SHIMEJI BROWN",
+    "PRICE": "23400",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "065",
+    "NAME": "JAMUR SHITAKE",
+    "PRICE": "123500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "066",
+    "NAME": "JAGUNG MANIS",
+    "PRICE": "15600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "067",
+    "NAME": "ENOKI",
+    "PRICE": "11700",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "068",
+    "NAME": "OYONG",
+    "PRICE": "16900",
+    "UNIT": "kg",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "069",
+    "NAME": "SAYUR CAPCAY",
+    "PRICE": "10400",
+    "UNIT": "BKS",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "070",
+    "NAME": "PAPRIKA MERAH",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "071",
+    "NAME": "PAPRIKA HIJAU",
+    "PRICE": "32500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "072",
+    "NAME": "PAPRIKA KUNING",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 1
+  },
+  {
+    "ID": "073",
+    "NAME": "KUNYIT",
+    "PRICE": "18200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "074",
+    "NAME": "KEMIRI",
+    "PRICE": "61100",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "075",
+    "NAME": "JAHE",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "076",
+    "NAME": "JAHE MERAH",
+    "PRICE": "91000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "077",
+    "NAME": "LENGKUAS",
+    "PRICE": "18200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "078",
+    "NAME": "LEMO",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "079",
+    "NAME": "KENCUR",
+    "PRICE": "57200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "080",
+    "NAME": "KETUMBAR",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "081",
+    "NAME": "KAYU MANIS",
+    "PRICE": "123500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "082",
+    "NAME": "BAWANG MERAH",
+    "PRICE": "49400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "083",
+    "NAME": "BAWANG MERAH KUPAS",
+    "PRICE": "54600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "084",
+    "NAME": "BAWANG PUTIH",
+    "PRICE": "35100",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "085",
+    "NAME": "BAWANG PUTIH KUPAS",
+    "PRICE": "41600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "086",
+    "NAME": "CABE RAWIT MERAH/HOT CHILLI",
+    "PRICE": "130000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "087",
+    "NAME": "CABE RAWIT HIJAU/ ACAR",
+    "PRICE": "71500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "088",
+    "NAME": "CABE MERAH BESAR",
+    "PRICE": "49400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "089",
+    "NAME": "CABE KERITING",
+    "PRICE": "84500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "090",
+    "NAME": "CABE HIJAU",
+    "PRICE": "32500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "091",
+    "NAME": "MERICA PUTIH BIJI",
+    "PRICE": "97500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "092",
+    "NAME": "MERICA HITAM BIJI",
+    "PRICE": "84500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "093",
+    "NAME": "BIJI PALA",
+    "PRICE": "182000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "094",
+    "NAME": "BOMBAI",
+    "PRICE": "28600",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "095",
+    "NAME": "BOMBAI MERAH",
+    "PRICE": "65000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 2
+  },
+  {
+    "ID": "096",
+    "NAME": "SEMANGKA",
+    "PRICE": "12350",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": "097",
+    "NAME": "PEPAYA THAILAND",
+    "PRICE": "10400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": "098",
+    "NAME": "PEPAYA CALIFORNI",
+    "PRICE": "13000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": "099",
+    "NAME": "JERUK NIPIS",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 100,
+    "NAME": "SALAK PONDOH",
+    "PRICE": "26000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 101,
+    "NAME": "SALAK BALI",
+    "PRICE": "23400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 102,
+    "NAME": "APEL MANALAGI",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 103,
+    "NAME": "APEL MALANG",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 104,
+    "NAME": "APEL FUJI",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 105,
+    "NAME": "APOKAT",
+    "PRICE": "26000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 106,
+    "NAME": "PIR CENTURY",
+    "PRICE": "39000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 107,
+    "NAME": "PIR YALIE",
+    "PRICE": "32500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 108,
+    "NAME": "ANGGUR MERAH",
+    "PRICE": "78000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 109,
+    "NAME": "ANGGUR LOKAL",
+    "PRICE": "31200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 110,
+    "NAME": "LEMON IMPORT",
+    "PRICE": "42900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 111,
+    "NAME": "LEMON LOKAL",
+    "PRICE": "26000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 112,
+    "NAME": "BANGKUANG",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 113,
+    "NAME": "JERUK LUMAJANG PERAS",
+    "PRICE": "18200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 114,
+    "NAME": "JERUK LUMAJANG",
+    "PRICE": "22100",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 115,
+    "NAME": "JERUK SUNKIST",
+    "PRICE": "45500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 116,
+    "NAME": "jambu biji merah",
+    "PRICE": "18200",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 117,
+    "NAME": "JAMBU KRISTAL",
+    "PRICE": "23400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 118,
+    "NAME": "NANAS MATANG",
+    "PRICE": "13000",
+    "UNIT": "pcs",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 119,
+    "NAME": "BUAH NAGA",
+    "PRICE": "23400",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 120,
+    "NAME": "STRAWBERY",
+    "PRICE": "71500",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 121,
+    "NAME": "NANAS KUPAS",
+    "PRICE": "16900",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  },
+  {
+    "ID": 122,
+    "NAME": "NANGKA MATANG KUPAS",
+    "PRICE": "52000",
+    "UNIT": "KG",
+    "CATEGORY_ID": 3
+  }
+]
