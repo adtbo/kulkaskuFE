@@ -1,4 +1,5 @@
 import React from "react";
+import { Provider as BumbagProvider } from "bumbag";
 import ReactDOM from "react-dom";
 import "./index.css";
 import OrderTab from "./orderPage/orderTab";
@@ -6,7 +7,9 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <OrderTab />
+    <BumbagProvider>
+      <OrderTab />
+    </BumbagProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

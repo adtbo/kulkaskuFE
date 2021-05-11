@@ -1,4 +1,5 @@
 import React from "react";
+import { ThemeProvider } from 'fannypack';
 import { useForm, useFieldArray, useWatch } from "react-hook-form";
 
 const Price = ({ control, index }) => {
