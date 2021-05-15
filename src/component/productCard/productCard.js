@@ -17,7 +17,7 @@ export default function ProductCard(props) {
         <Columns.Column spread={4}>
           <Flex height="100%" alignY="center">
             <Box margin="major-1" padding="major-1">
-              <Label>{item.NAME}</Label>
+              <Label>{item.Name}</Label>
               {item.DESCRIPTION && (
                 <Text.Block>
                   <Text use="i">{item.DESCRIPTION}</Text>
@@ -32,17 +32,17 @@ export default function ProductCard(props) {
               <Label
                 margin="major-1"
                 padding="major-1"
-              >{`${item.PRICE}/${item.UNIT}`}</Label>
+              >{`${item.price}/${item.unit}`}</Label>
             </Flex>
             <Flex height="100%" alignY="center">
               <Input
-                id={`displayed-unit-input-${item.ID}`}
-                name={`displayed-unit-input-${item.ID}`}
+                id={`displayed-unit-input-${item.productId}`}
+                name={`displayed-unit-input-${item.productId}`}
                 type="number"
                 placeholder="0.00"
                 inputRef={register}
               />
-              <Text marginLeft="major-1">{item.UNIT}</Text>
+              <Text marginLeft="major-1">{item.unit}</Text>
             </Flex>
           </Box>
         </Columns.Column>

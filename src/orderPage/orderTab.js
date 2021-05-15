@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import { Flex, Icon, Button, Text, Modal, Box } from "bumbag";
 
 import OrderCart from "./orderCart/orderCart";
 import OrderForm from "./orderForm/orderForm";
-
-const items = require("../fixtures/items.json");
-const categories = require("../fixtures/category.json");
+import { useOrderPage } from "./useOrderPage";
 
 const cartButton = (props) => (
   <Flex
@@ -47,35 +45,44 @@ const cartModal = (modal, cartList, setCartList) => (
 );
 
 export default function OrderTab() {
-  const defaultCategory = { ID: -1, NAME: "ALL" };
-  const newCategories = [defaultCategory, ...categories];
+  const {
+    products,
+    displayedList,
+    setDisplayedList,
+    categories,
+    cartList,
+    setCartList,
+    selectedCategory,
+    setSelectedCategory,
+  } = useOrderPage();
 
-  const [displayedList, setDisplayedList] = useState(items);
-  const [cartList, setCartList] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState(defaultCategory.ID);
   const modal = Modal.useState();
 
   return (
-    <Box backgroundColor="warning200" paddingBottom="40px">
-      {cartModal(modal, cartList, setCartList)}
+    <div>
+      {products?.length > 0 && (
+        <Box backgroundColor="warning200" paddingBottom="40px">
+          {cartModal(modal, cartList, setCartList)}
 
-      <Box
-        padding="major-1"
-        margin="major-3"
-        backgroundColor="white600"
-        borderRadius="3"
-      >
-        <OrderForm
-          displayedList={displayedList}
-          setDisplayedList={setDisplayedList}
-          cartList={cartList}
-          setCartList={setCartList}
-          selectedCategory={selectedCategory}
-          setSelectedCategory={setSelectedCategory}
-          items={items}
-          categories={newCategories}
-        />
-      </Box>
-    </Box>
+          <Box
+            padding="major-1"
+            margin="major-3"
+            backgroundColor="white600"
+            borderRadius="3"
+          >
+            <OrderForm
+              displayedList={displayedList}
+              setDisplayedList={setDisplayedList}
+              cartList={cartList}
+              setCartList={setCartList}
+              selectedCategory={selectedCategory}
+              setSelectedCategory={setSelectedCategory}
+              items={products}
+              categories={categories}
+            />
+          </Box>
+        </Box>
+      )}
+    </div>
   );
 }

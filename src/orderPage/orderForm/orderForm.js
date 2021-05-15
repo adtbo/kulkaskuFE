@@ -5,53 +5,57 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 import ProductCard from "../../component/productCard/productCard";
 
-const _setCategory = (setSelectedCategory, setDisplayedList, items) => (
-  event
-) => {
-  const selectedCategory = parseFloat(event.target.value);
+const _setCategory =
+  (setSelectedCategory, setDisplayedList, items) => (event) => {
+    const selectedCategory = event.target.value;
 
-  const displayed =
-    selectedCategory < 0
-      ? items
-      : items.filter((item) => item.CATEGORY_ID === selectedCategory);
-  setDisplayedList(displayed);
-  setSelectedCategory(selectedCategory);
-};
+    const displayed =
+      selectedCategory === "ALL"
+        ? items
+        : items.filter((item) => item.categoryId === selectedCategory);
+    setDisplayedList(displayed);
+    setSelectedCategory(selectedCategory);
+  };
 
-const _setSearchList = (items, selectedCategory, setDisplayedList) => (
-  event
-) => {
-  const searchString = event.target.value;
+const _setSearchList =
+  (items, selectedCategory, setDisplayedList) => (event) => {
+    const searchString = event.target.value;
 
-  if (searchString) {
-    const filteredDisplayed =
-      selectedCategory < 0
-        ? items.filter((item) =>
-            item.NAME.toLowerCase().includes(searchString.toLowerCase())
-          )
-        : items.filter(
-            (item) =>
-              item.CATEGORY_ID === selectedCategory &&
-              item.NAME.toLowerCase().includes(searchString.toLowerCase())
-          );
-    setDisplayedList(filteredDisplayed);
-  }
-};
+    if (searchString) {
+      const filteredDisplayed =
+        selectedCategory < 0
+          ? items.filter((item) =>
+              item.Name.toLowerCase().includes(searchString.toLowerCase())
+            )
+          : items.filter(
+              (item) =>
+                item.categoryId === selectedCategory &&
+                item.Name.toLowerCase().includes(searchString.toLowerCase())
+            );
+      setDisplayedList(filteredDisplayed);
+    }
+  };
 
 const _addToCart = (resetInput, cart, setCart, newItem) => (data) => {
-  const dataIndex = `displayed-unit-input-${newItem.ID}`;
-  const value = data[dataIndex];
+  const dataIndex = `displayed-unit-input-${newItem.productId}`;
+  const value = parseFloat(data[dataIndex]);
+  if (!(value > 0)) {
+    alert("quantity harus lebih dari 0");
+    return;
+  }
 
-  resetInput({ [`displayed-unit-input-${newItem.ID}`]: "" });
+  resetInput({ [`displayed-unit-input-${newItem.productId}`]: "" });
 
   const newCart = [...cart];
-  const existingIndex = cart.findIndex((item) => item.ID === newItem.ID);
+  const existingIndex = cart.findIndex(
+    (item) => item.productId === newItem.productId
+  );
 
   if (existingIndex < 0) {
-    newCart.push({ ...newItem, VALUE: value });
+    newCart.push({ ...newItem, value: value });
   } else {
-    const prevValue = newCart[existingIndex].VALUE;
-    newCart[existingIndex].VALUE = parseFloat(value) + parseFloat(prevValue);
+    const prevValue = newCart[existingIndex].value;
+    newCart[existingIndex].value = value + prevValue;
   }
 
   setCart(newCart);
@@ -64,8 +68,8 @@ const categorySelect = (props) => {
     <Select
       options={categories.map((category) => {
         return {
-          label: category.NAME,
-          value: category.ID,
+          label: category.name,
+          value: category.categoryId,
         };
       })}
       onChange={_setCategory(setSelectedCategory, setDisplayedList, items)}
@@ -104,7 +108,7 @@ const itemList = (props, methods) => {
       {displayedList.map((item) => (
         <ProductCard
           item={item}
-          key={item.ID}
+          key={item.productId}
           onPressAdd={addProduct(item)}
           register={register}
         />

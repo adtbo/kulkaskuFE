@@ -1,14 +1,14 @@
 [
   {
-    "ID": 1,
-    "NAME": "SAYUR"
+    "categoryId": 1,
+    "name": "SAYUR"
   },
   {
-    "ID": 2,
-    "NAME": "BUMBU"
+    "categoryId": 2,
+    "name": "BUMBU"
   },
   {
-    "ID": 3,
-    "NAME": "BUAH"
+    "categoryId": 3,
+    "name": "BUAH"
   }
 ]

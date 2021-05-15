@@ -2,7 +2,7 @@ import React from "react";
 import { Columns, Box, Label, Text, Flex } from "bumbag";
 
 export default function CartCard(props) {
-  const { NAME, VALUE, PRICE, UNIT } = props.item;
+  const { Name, value, price, unit } = props.item;
 
   return (
     <Box
@@ -15,9 +15,9 @@ export default function CartCard(props) {
       <Columns minBreakpoint="mobile">
         <Columns.Column spread={6}>
           <Box marginLeft="major-1" padding="major-1">
-            <Label>{NAME}</Label>
+            <Label>{Name}</Label>
             <Text.Block>
-              <Text>{`${VALUE} ${UNIT}`}</Text>
+              <Text>{`${value} ${unit}`}</Text>
             </Text.Block>
           </Box>
         </Columns.Column>
@@ -28,7 +28,7 @@ export default function CartCard(props) {
         </Columns.Column>
         <Columns.Column>
           <Flex height="100%" alignY="center">
-            <Label>{PRICE * VALUE}</Label>
+            <Label>{price * value}</Label>
           </Flex>
         </Columns.Column>
       </Columns>

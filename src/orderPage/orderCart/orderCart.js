@@ -1,5 +1,8 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 import { Box, Label, Divider, Flex, Text, Button, Input } from "bumbag";
+
+import { sendOrder } from "./order.handler";
 
 import CartCard from "../../component/cartCard/cartCard";
 
@@ -14,7 +17,7 @@ const _getTotal = (items) => {
   let sum = 0;
 
   if (itemsExist) {
-    sum = items.reduce((total, item) => total + item.VALUE * item.PRICE, 0);
+    sum = items.reduce((total, item) => total + item.value * item.price, 0);
   }
 
   return sum;
@@ -29,7 +32,7 @@ const itemList = (props) => {
         <CartCard
           item={item}
           onRemove={_removeFromCart(cartList, setCartList, index)}
-          key={item.ID}
+          key={item.productId}
         />
       ))}
     </div>
@@ -37,6 +40,7 @@ const itemList = (props) => {
 };
 
 export default function OrderCart(props) {
+  const { register, handleSubmit, errors } = useForm();
   const { cartList } = props;
   const height = window.outerHeight;
 
@@ -71,25 +75,50 @@ export default function OrderCart(props) {
         </Box>
       </Flex>
       <Divider orientation="horizontal" margin="major-2" />
-      <Box>
-        <Flex alignX="center" alignY="center">
-          <Input label="Nama" width="40%" />
-          <Input label="Nomor Whatsapp" width="40%" marginLeft="6%" />
-        </Flex>
-      </Box>
-      <Box alignY="center">
-        <Button
-          size="large"
-          margin="major-2"
-          padding="major-1"
-          borderRadius="5"
-          palette="success"
-        >
-          <Label fontSize="300" margin="major-2">
-            Pesan Sekarang
-          </Label>
-        </Button>
-      </Box>
+      <form>
+        <Box>
+          <Flex alignX="center" alignY="center">
+            <Input
+              id={`name`}
+              name={`name`}
+              inputRef={register({ required: true, minLength: 4 })}
+              label="Nama"
+              width="40%"
+              state={errors.name ? "danger" : ""}
+            />
+            <Input
+              id={`phoneNumber`}
+              name={`phoneNumber`}
+              inputRef={register({ required: true })}
+              label="Nomor Whatsapp"
+              width="40%"
+              marginLeft="6%"
+              state={errors.phoneNumber ? "danger" : ""}
+            />
+          </Flex>
+        </Box>
+        <Box alignY="center">
+          <Button
+            size="large"
+            margin="major-2"
+            padding="major-1"
+            borderRadius="5"
+            palette="success"
+            onClick={handleSubmit((data) => {
+              const body = {
+                customer: data,
+                products: cartList,
+              };
+
+              sendOrder(body);
+            })}
+          >
+            <Label fontSize="300" margin="major-2">
+              Pesan Sekarang
+            </Label>
+          </Button>
+        </Box>
+      </form>
     </Box>
   );
 }
