@@ -17,7 +17,7 @@ const _getTotal = (items) => {
   let sum = 0;
 
   if (itemsExist) {
-    sum = items.reduce((total, item) => total + item.value * item.price, 0);
+    sum = items.reduce((total, item) => total + item.quantity * item.price, 0);
   }
 
   return sum;

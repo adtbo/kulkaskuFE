@@ -17,7 +17,7 @@ export default function ProductCard(props) {
         <Columns.Column spread={4}>
           <Flex height="100%" alignY="center">
             <Box margin="major-1" padding="major-1">
-              <Label>{item.Name}</Label>
+              <Label>{item.name}</Label>
               {item.DESCRIPTION && (
                 <Text.Block>
                   <Text use="i">{item.DESCRIPTION}</Text>

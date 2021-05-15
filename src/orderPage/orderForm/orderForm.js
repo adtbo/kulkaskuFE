@@ -25,12 +25,12 @@ const _setSearchList =
       const filteredDisplayed =
         selectedCategory < 0
           ? items.filter((item) =>
-              item.Name.toLowerCase().includes(searchString.toLowerCase())
+              item.name.toLowerCase().includes(searchString.toLowerCase())
             )
           : items.filter(
               (item) =>
                 item.categoryId === selectedCategory &&
-                item.Name.toLowerCase().includes(searchString.toLowerCase())
+                item.name.toLowerCase().includes(searchString.toLowerCase())
             );
       setDisplayedList(filteredDisplayed);
     }
@@ -52,10 +52,10 @@ const _addToCart = (resetInput, cart, setCart, newItem) => (data) => {
   );
 
   if (existingIndex < 0) {
-    newCart.push({ ...newItem, value: value });
+    newCart.push({ ...newItem, quantity: value });
   } else {
-    const prevValue = newCart[existingIndex].value;
-    newCart[existingIndex].value = value + prevValue;
+    const prevValue = newCart[existingIndex].quantity;
+    newCart[existingIndex].quantity = value + prevValue;
   }
 
   setCart(newCart);
