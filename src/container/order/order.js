@@ -44,7 +44,7 @@ const cartModal = (modal, cartList, setCartList) => (
   </Modal.State>
 );
 
-export default function OrderTab() {
+export default function OrderPage() {
   const {
     products,
     displayedList,

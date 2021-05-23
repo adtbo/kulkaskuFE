@@ -4,7 +4,7 @@ import { Box, Label, Divider, Flex, Text, Button, Input } from "bumbag";
 
 import { sendOrder } from "./order.handler";
 
-import CartCard from "../../component/cartCard/cartCard";
+import CartCard from "../../../component/cartCard/cartCard";
 
 const _removeFromCart = (cart, setCart, index) => () => {
   const newCart = [...cart];

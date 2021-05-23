@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Input, Group, Select, Box } from "bumbag";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-import ProductCard from "../../component/productCard/productCard";
+import ProductCard from "../../../component/productCard/productCard";
 
 const _setCategory =
   (setSelectedCategory, setDisplayedList, items) => (event) => {
