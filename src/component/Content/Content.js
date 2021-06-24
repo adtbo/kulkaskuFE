@@ -1,5 +1,6 @@
 import React from 'react';
 import CategoryCard from '../CategoryCard/CategoryCard';
+import Loader from '../Loader/Loader';
 
 import { getCategories } from '../../model/Categories';
 
@@ -12,7 +13,7 @@ const Content = () => {
             </div>
             <div className="w-3/4">
                 <div className="grid grid-cols-3 grid-flow-col auto-cols-max gap4 h-1/4" >
-                    { categories.map((category) => <CategoryCard item={category} />)}
+                    { categories.length > 0 ? categories.map((category) => <CategoryCard item={category} key={category.categoryId} />) : <Loader /> }
                 </div>
             </div>
                 
