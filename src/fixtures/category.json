@@ -1,14 +1,17 @@
 [
   {
     "categoryId": 1,
-    "name": "SAYUR"
+    "name": "SAYUR",
+    "image": "https://source.unsplash.com/0XVrBLy73rw"
   },
   {
     "categoryId": 2,
-    "name": "BUMBU"
+    "name": "BUMBU",
+    "image": "https://source.unsplash.com/vA1L1jRTM70"
   },
   {
     "categoryId": 3,
-    "name": "BUAH"
+    "name": "BUAH",
+    "image": "https://source.unsplash.com/zeFy-oCUhV8"
   }
 ]
