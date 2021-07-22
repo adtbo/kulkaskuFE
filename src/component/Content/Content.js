@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import CategoryCard from '../CategoryCard/CategoryCard';
-import Loader from '../Loader/Loader';
 
-import { getCategories, getCategoriesWithoutChunk } from '../../model/Categories';
+import { getCategories } from '../../model/Categories';
 
 const Content = () => {
     const [categories, setCategories] = useState([]);
     
     useEffect(() => {
-        setCategories(getCategoriesWithoutChunk(3));
+        setCategories(getCategories());
     }, []);
     console.log(categories);
     return (
