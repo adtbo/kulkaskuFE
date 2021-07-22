@@ -10,3 +10,7 @@ export const getCategories = (n) => {
     const categoriesInChunk = contentRows.map((cat, idx) => (cat));
     return categoriesInChunk;
 }
+
+export const getCategoriesWithoutChunk = () => {
+    return CategoryList;
+}
