@@ -1,4 +1,5 @@
-import CategoryList from '../fixtures/category.json'
+import CategoryList from '../fixtures/category.json';
+import CategoryDetailList from '../fixtures/items.json';
 
 
 // this function will return data in chunks [[1,2,3],[4,5,6]]
@@ -13,4 +14,13 @@ export const getCategoriesWithChunk = (n) => {
 
 export const getCategories = () => {
     return CategoryList;
+}
+
+export const getProductsByCategoryId = (id) => {
+    const categoryById = CategoryDetailList.filter((category) => category.categoryId === id);
+    if ( categoryById.length > 0 ) {
+        return categoryById;
+    } else {
+        return [];
+    }
 }

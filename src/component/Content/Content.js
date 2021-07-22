@@ -5,11 +5,9 @@ import { getCategories } from '../../model/Categories';
 
 const Content = () => {
     const [categories, setCategories] = useState([]);
-    
     useEffect(() => {
         setCategories(getCategories());
     }, []);
-    console.log(categories);
     return (
         <div className="flex flex-wrap place-content-center justify-items-center">
             <div className="flex flex-wrap">
