@@ -7,9 +7,6 @@ function CategoryCard(props) {
             <div className="filter hover:blur">
                 <img className="rounded-xl object-center w-max" src={item.image} alt={item.name} />
             </div>
-            {/* <div className="">
-                {item.name}
-            </div> */}
         </div>
     )
 };

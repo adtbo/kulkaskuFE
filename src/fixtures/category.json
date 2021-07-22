@@ -13,5 +13,20 @@
     "categoryId": 3,
     "name": "BUAH",
     "image": "https://source.unsplash.com/zeFy-oCUhV8"
+  },
+  {
+    "categoryId": 4,
+    "name": "MICIN",
+    "image": "https://source.unsplash.com/0XVrBLy73rw"
+  },
+  {
+    "categoryId": 5,
+    "name": "MACAN",
+    "image": "https://source.unsplash.com/vA1L1jRTM70"
+  },
+  {
+    "categoryId": 6,
+    "name": "MACANI",
+    "image": "https://source.unsplash.com/zeFy-oCUhV8"
   }
 ]
